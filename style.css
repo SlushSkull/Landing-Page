@@ -207,3 +207,12 @@ a {
     border-radius: 10px;
     border: 2px solid #FFFFFF;
 }
+
+.footer-container {
+    background-color: #1F2937;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
