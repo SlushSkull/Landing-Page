@@ -136,3 +136,28 @@ a {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.quote-container {
+    /* border: 2px solid red; */
+    background-color: rgb(229, 231, 235);
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 100px 300px;
+}
+
+.quote-container .quote {
+    color: #1f2937c5;
+    font-size: 36px;
+    font-style: italic;
+    /* border: 2px solid orange; */
+}
+
+.credit {
+    display: flex;
+    /* border: 2px solid green; */
+    justify-content: flex-end;
+    color: rgb(28, 31, 34);
+    font-weight: bolder;
+    font-size: 22px;
+}
