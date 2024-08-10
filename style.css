@@ -86,3 +86,53 @@ a {
     font-weight: bolder;
     border-radius: 10px;
 }
+
+.info-container {
+    /* border: 2px solid red; */
+    padding: 50px;
+}
+
+.info-container .heading {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.one img, .two img, .three img, .four img {
+    width: 150px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.one, .two, .three, .four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* border: 2px solid magenta; */
+    max-width: 200px;
+}
+
+.sub-text {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* border: 2px dashed black; */
+    text-align: center;
+    color: rgb(68, 70, 73);
+    font-size: 18px;
+}
+
+.info-container .info {
+    /* border: 2px dashed purple; */
+    display: flex;
+    padding: 50px;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
