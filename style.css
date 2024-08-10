@@ -161,3 +161,49 @@ a {
     font-weight: bolder;
     font-size: 22px;
 }
+
+.sign-up-container {
+    /* border: 2px solid red; */
+    padding: 100px 200px;
+}
+
+.sign-up-container .blue-container {
+    background-color: #3b82f6;
+    border-radius: 10px;
+    padding: 50px 100px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up-container .blue-container .left .heading {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.explainer-text {
+    font-size: 18px;
+    color: #cfd2d7;
+}
+
+/* .sign-up-container .blue-container .left {
+    border: 2px dotted cyan;
+} */
+
+.sign-up-container .blue-container a {
+    display: flex;
+}
+
+.sign-up-container .blue-container a .button {
+    color: #FFFFFF;
+    background-color: #3b82f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+}
