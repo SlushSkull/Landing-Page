@@ -49,6 +49,7 @@ a {
     display: flex;
     padding: 100px 200px;
     gap: 10px;
+    justify-content: space-evenly;
 }
 
 .main .heading {
