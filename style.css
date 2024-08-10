@@ -193,6 +193,7 @@ a {
 
 .sign-up-container .blue-container a {
     display: flex;
+    min-width: 0px;
 }
 
 .sign-up-container .blue-container a .button {
@@ -206,6 +207,7 @@ a {
     font-weight: bolder;
     border-radius: 10px;
     border: 2px solid #FFFFFF;
+    min-width: 0px;
 }
 
 .footer-container {
